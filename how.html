@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kobi Matik</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header class="bg-light fixed-top">
+      <div
+        class="p-2 bg-primary d-flex justify-content-center gap-4 sticky-top align-items-center"
+      >
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-envelope"></i> ayhan@pmcproje.com
+        </a>
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-telephone"></i> 0512 472 7524
+        </a>
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-telephone"></i>
+        </a>
+
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-whatsapp"></i> 0536 565 3955
+        </a>
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <div class="d-flex gap-3">
+          <a href="https://www.facebook.com/Kobimatik06/" class="text-dark"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://x.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="http://youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+            class="text-dark"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+              <img
+                src="./assets/img/logo.png"
+                alt="KobiMatik Logo"
+                height="40"
+              />
+            </a>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#features" class="nav-link"
+                    >Kobimatik Nedir ?</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link">Fiyatlandırma</a>
+                </li>
+                <li class="nav-item">
+                  <a href="how.html" class="nav-link active">Nasıl Çalışır?</a>
+                </li>
+                <li class="nav-item">
+                  <a href="solutions.html" class="nav-link">Çözümler</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-outline-primary">
+                  Giriş Yap
+                </a>
+                <a href="login.html" class="btn btn-primary">Üye Ol</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section py-5 bg-light" id="solutions">
+      <div class="container mt-5 pt-5">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold mb-2">Nasıl Çalışır ?</h2>
+          </div>
+        </div>
+        <div class="text-center mb-4">
+          <video
+            class="rounded-4"
+            controls
+            style="max-width: 100%; border-radius: 15px"
+          >
+            <source
+              src="./assets/video/kobimatik_nasil_yapilir.mp4"
+              type="video/mp4"
+            />
+            Tarayıcınız video etiketini desteklemiyor.
+          </video>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Seçenekler -->
+            <button
+              class="btn btn-primary px-4 py-2 d-block mx-auto"
+              type="button"
+              data-bs-toggle="pill"
+              data-bs-target="#isPlan"
+            >
+              Fizibilite Raporu/İş Planı
+            </button>
+          </div>
+
+          <!-- İçerikler -->
+          <div class="tab-content mt-2">
+            <div class="tab-pane fade show active" id="fizibilite">
+              <div class="card card-body bg-light how-step">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-1-square-fill fa-3x text-primary"></i>
+                          Başlangıç ve Kayıt İşlemleri
+                        </h3>
+                        <p>
+
+                          Merhaba ilk aşamaya hoş geldiniz. Hazırsanız hemen
+                          başlayabiliriz! Bu aşamada ilgili kutucuğa adınızı ve
+                          iş fikrinizi veya rapor konunuzu yazınız. İkinci
+                          kutucuğa geçtiğinizde gerçek veya tüzel kişi olarak
+                          seçiminizi yapınız. Bir sonraki kutucukta kullanıcı
+                          türünüzü belirledikten sonra dördüncü ve son kutucukta
+                          iş fikrinizin durumunu seçiniz.
+                        </p>
+                        <img
+                          src="./assets/img/1asama.jpg"
+                          alt="1. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-2-square-fill text-primary"></i>
+                          Amortisman Hesaplamaları
+                        </h3>
+                        <p>
+                          Bir defaya mahsus yapılacak harcamalar; sabit yatırım
+                          veya başlangıç maliyeti olarak bu bölümde yer
+                          almaktadır. Her bir maliyetin sağında amortisman
+                          oranları otomatik olarak ekrana gelecektir. Eğer bu
+                          oranların bizim seçtiğimiz oranlardan farklı olduğunu
+                          düşünüyorsanız bu oranı değiştirebilirsiniz. Ancak bu
+                          oranları değiştirmemeniz tavsiye edilir. Harcama
+                          adlarını ilgili kutucuklardan bularak doldurunuz.
+                          İhtiyacınız olmadığını düşündüğünüz harcama kalemleri
+                          için kutucukları açmadan devam et butonuna basarak bir
+                          sonraki aşamaya geçebilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/2asama.jpg"
+                          alt="2. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-3-square-fill text-primary"></i>
+                          Özkaynak Hesaplamaları
+                        </h3>
+                        <p>
+                          Bir önceki aşama olan ikinci aşamada başlangıç veya
+                          sabit yatırıma esas olan tüm harcamalar toplamınız
+                          otomatik olarak özkaynak kutucuğuna aktarılacaktır.
+                          Başlangıç yatırım maliyetleri için tek kaynağınız
+                          özkaynak olacak ise devam et butonuna basarak bir
+                          sonraki aşamaya geçebilirsiniz. Ancak öz kaynağınızın
+                          başlangıç maliyetlerini karşılayamadığı durumlarda
+                          diğer kaynak kalemlerine de eklemeniz gerekecektir.
+                          Nitekim bir önceki aşamadan bu kutucuğa gelen toplam
+                          değeri elde etmeniz gerekmektedir. Bu rakamı elde
+                          etmek için kredi, borç veya hibe kaynaklarından
+                          herhangi birini, ikisini veya üçünü KDV hariç olarak
+                          giriniz. Eğer kredi kullanacaksanız kredi kutucuğuna
+                          tıkladığınızda kredinizin vadesi ve faiz oranınızı
+                          girmeniz gerekmektedir. İşletmeniz için borç
+                          kullanmayı düşünüyor iseniz borç tutarını ve geri
+                          ödeme sürenizi giriniz. Hibe almayı planlıyorsanız
+                          almayı planladığınız hibe tutarını ilgili kutucuğa
+                          yazıp devam et butonuna basarak bir sonraki aşamaya
+                          geçebilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/3asama.jpg"
+                          alt="3. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-4-square-fill text-primary"></i>
+                          Ana Girdiler ve İşletme Giderleri
+                        </h3>
+                        <p>
+                          İşletmenizin bir yıllık ana girdisine lütfen bu
+                          bölümde yer veriniz. Birden fazla ana girdi var ise
+                          ana girdinizin birimini, miktarını ve birim fiyatını
+                          yazarak istediğiniz kadar ana girdi ekleyebilirsiniz.
+                          Ana girdiler sektörel olarak değişmekte olup ham
+                          madde/hizmet alımı/al-sat ürünleri vb. ana girdi
+                          olabilmektedir. Ana girdilerinizi yıllık olarak
+                          girmeniz gerekmektedir. Ana girdilerinizin yıllık
+                          toplam gideri bir sonraki aşama olan işletme giderleri
+                          bölümüne otomatik olarak aktarılacaktır. Ana girdiniz
+                          ham madde ise bu girdinizin mamül maddeye dönüştürme
+                          oranını dikkate almanız sonraki aşamalarda önem arz
+                          edecekir. Örneğin 5 Kg domatesten 1 kg salça elde
+                          ediliyorsa 6. aşamada yer alan gelirler bölümünde bu
+                          değerleri dikkate alarak miktar, birim fiyatı, ana
+                          girdiniz veya ham madddeniz ile örtüştürmeniz
+                          gerekmektedir. Kimi sektörlerde özellikle bazı hizmet,
+                          yazılım vb. sektörlerinde ana girdi yok ise bir
+                          sonraki aşamaya geçip işletme giderlerinizi
+                          girebilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/4asama.jpg"
+                          alt="4. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-5-square-fill text-primary"></i>
+                          İşletme Giderlerinin Belirlenmesi
+                        </h3>
+                        <p>
+                          İşletme giderleri kısmında iki seçenekle
+                          karşılaşacaksınız. İlk seçenecek basit, kolay ve
+                          anlaşılır tarzda olup sadece yıllık işletme
+                          giderlerinizi ilgili kutucuklara yazmanız
+                          gerekmektedir. İlk seçenek tablosunun ihtiyacınızı
+                          karşlılamadığını düşünüyor iseniz genellikle
+                          profesyonellerin tercih ettiği detaylı içerik olan
+                          sabit ve değişken gider oranlarını sizin
+                          belirleyeceğiniz ikinci seçeneği kullanabilirsiniz.
+                          İşletmenizle ilgili olmayan gider kalemleri var ise o
+                          bölümü doldurmadan devam et butonuna basarak bir
+                          sonraki aşamaya geçebilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/5asama.jpg"
+                          alt="5. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-6-square-fill text-primary"></i>
+                          Ürünler ve Faaliyetlerin Belirlenmesi
+                        </h3>
+                        <p>
+                          Nihai ürün yada ürün gruplarına ait birimi, miktarı ve
+                          birim satış fiyatını ilgili kutucuklara sırası ile
+                          yazıp ekle butonuna basınız. Birden fazla ürününüz
+                          olması halinde her bir çıktı ürüne bu bölümde yer
+                          verebilirsiniz. İşletmenizin ara veya tali ürün
+                          gelirleri, diğer gelirler ve faaliyet dışı gelirleri
+                          olması halinde de bu bölümlere yer verebilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/6asama.jpg"
+                          alt="6. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-7-square-fill text-primary"></i>
+                          İşletme Sermayesi ve Finansal Planlama
+                        </h3>
+                        <p>
+                          İlk Seçenek: Otomatik Hesapla (Önerilen) Varsayımlar
+                          ve teknik kabuller bölümünde ana ekrana çıkan ilk
+                          tanımlamalara riayet edip hiç bir değişiklik yapmadan
+                          devam et butonuna basarak bir sonraki aşamaya
+                          geçebilirsiniz. Bu yöntemde 1 aylık işletme gideri
+                          işletme sermayesi olarak varsayılmaktadır. İkinci
+                          Seçenek: Elle Giriş İşletme sermayenizi kendi
+                          belirleyeceğiniz tutar olarak manuel olarak
+                          girebilirsiniz. Ancak bu seçeneğin herhangi bir teknik
+                          hesaplama sonucu elde edilmek istenmesi halinde
+                          kullanılması önerilir. Üçüncü Seçenek: İşletme Devir
+                          Gün Hesabı ile Hesaplama Bu seçenekte işletmenizin ilk
+                          paket hizmet/ürünün satışını yapıp bedelini tahsil
+                          etme sürenize kadar olan süreçte ihtiyaç duyacağınız
+                          nakit miktarını hesaplanmaktadır. İkinci Kutucuk
+                          İşletme Gelir Gider Hesabı (Önerilen): Bu kutucuk size
+                          Sabit veya Değişken olmak üzere iki alternatif
+                          sunmaktadır. . Eğer hesaplamanızda her yılki
+                          gelirinizi (miktar ve birim fiyatları değiştirmeden)
+                          ve giderinizi sabit alarak hesaplamak istiyorsanız
+                          sabit seçeneğini seçmelisiniz. Ancak, işletme gelir ve
+                          giderlerinizi yıllara göre değiştirerek hesaplama
+                          yapmak istiyorsanız her bir yıl için artış oranı
+                          seçiniz. İskonto Oranı: Bu oran Merkez Bankası faiz
+                          oranı baz alınarak tarafımızca güncellenmektedir. Bu
+                          oranı değiştirmemeniz önerilir. Ancak sizin
+                          belirlediğiniz bir iskonto oranı var ise (enflasyon
+                          vb.) bu oranı manuel olarak değiştirerek süreci
+                          tamamlayabilirsiniz.
+                        </p>
+                        <img
+                          src="./assets/img/7asama.jpg"
+                          alt="7. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-start h-100">
+                      <div class="card h-100 border-0 p-3">
+                        <h3 class="h5">
+                          <i class="bi bi-8-square-fill text-primary"></i>
+                          Sonuç ve Fizibilite Değerlendirmesi
+                        </h3>
+                        <p>
+                          Tebrikler! Sizi en son aşamaya başarılı bir şekilde ve
+                          fazla zorlanmadan 5 dakikadan daha az bir sürede
+                          getirebildiğimizi umuyoruz. Kobimatik akıllı uygulama
+                          paketi, ilgili iş fikrinizin veya fizibilite
+                          raporunuzun finansal açıdan uygun olup olmadığına
+                          değerlendirme ve sonuçlarla karar verir. Bu süreçte
+                          ilk 7 aşamada girdiğiniz tüm veriler arka plandaki
+                          uygulamamız aracılığıyla dinamik ve statik
+                          parametreleri dikkate alarak değerlendirilmektedir. Bu
+                          parametler hem paranın zaman değerini dikkate alan ve
+                          hem de paranın zaman değerini dikkate almayan
+                          unsurları içermektedir. Ekranda çıkan bu 6
+                          parametrenin birbirleriyle iş birliği içerisinde iş
+                          fikrinizin uygun olup olmadığını belirtmesi
+                          beklenmektedir. İstisnai durumlar dışında bu 6 üyenin
+                          hepsi ya iş fikrinizin uygun olduğuna ya da
+                          olmadığınıa karar verecektir. Nitekim unutulmamalıdır
+                          ki iş fikrinizin türüne göre istisnai durumlar
+                          olabilir. Böyle bir durumla karşılaşmanız halinde
+                          fizkirlerimizi paylaşmak amacıyla sonuçları bizimle
+                          paylaşmaınızı rica ederiz. Nice başka analizlerde
+                          buluşmak ve birlikte raporlama yapmak ümidiyle,
+                          hoşçakalın.
+                        </p>
+                        <img
+                          src="./assets/img/8asama.jpg"
+                          alt="8. Aşama"
+                          class="img-fluid mt-auto"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 section text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Logo ve Sosyal Medya -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="./assets/img/logo.png"
+              alt="KobiMatik Logo"
+              height="40"
+              class="mb-3"
+            />
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/kobimatik/" class="text-light"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+                class="text-light"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Çözümler -->
+          <div class="col-md-2 mb-4">
+            <h5>Çözümler</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Ön Fizibilite Raporu</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Fizibilite Raporu/İş Planı</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Gelişmiş Fizibilite ve İş Planı</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Politikalar ve Gizlilik -->
+          <div class="col-md-2 mb-4">
+            <h5>Politikalar ve Gizlilik</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="/assets/pdf/kobimatik_sozlesme.pdf"
+                  class="text-light text-decoration-none"
+                  >Sözleşme</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/mesafeli_satis_sozlesmesi.pdf"
+                  class="text-light text-decoration-none"
+                  >Mesafeli Satış Sözleşmesi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/iptal_ve_iade_kosullari.pdf"
+                  class="text-light text-decoration-none"
+                  >İptal ve İade Koşulları</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/gizlilik_politikasi.pdf"
+                  class="text-light text-decoration-none"
+                  >Gizlilik Politikası</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- İletişim -->
+          <div class="col-md-2 mb-4">
+            <h5>İletişim</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="bi bi-telephone me-2"></i>
+                <a
+                  href="tel:+903124737534"
+                  class="text-light text-decoration-none"
+                  >0312 4737534</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-whatsapp me-2"></i>
+                <a
+                  href="https://wa.me/05326535025"
+                  class="text-light text-decoration-none"
+                  >0532 653 5025</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-envelope me-2"></i>
+                <a
+                  href="mailto:ayhan@pmcproje.com"
+                  class="text-light text-decoration-none"
+                  >ayhan@pmcproje.com</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                <span>
+
+                </span>
+                <a href="https://www.google.com/maps/search/?api=1&query=Oğuzlar+Mah.+İlhami+Soysal+Sok.+20/10+Balgat+/+Çankaya+Ankara" class="text-light text-decoration-none" target="_blank">Adres: Oğuzlar Mah. İlhami Soysal Sok. 20/10 Balgat/ Çankaya Ankara</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Bülten -->
+          <div class="col-md-3 mb-4">
+            <h5>Bültenimize Katılın</h5>
+            <p>En son haberler ve güncellemeler için abone olun</p>
+            <div class="input-group mb-3 justify-content-center">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-posta adresiniz"
+              />
+              <button class="btn btn-primary" type="button">Katıl</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telif Hakkı -->
+        <div class="border-top pt-4 mt-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="mb-3">&copy; 2025 KobiMatik Tüm hakları saklıdır.</p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

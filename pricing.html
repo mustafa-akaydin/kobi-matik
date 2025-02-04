@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kobi Matik</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="bg-light">
+    <!-- Header/Navbar -->
+    <header class="bg-light fixed-top">
+      <div
+        class="p-2 bg-primary d-flex justify-content-center gap-4 sticky-top align-items-center"
+      >
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-envelope"></i> ayhan@pmcproje.com
+        </a>
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-telephone"></i> 0512 472 7524
+        </a>
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-telephone"></i>
+        </a>
+
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-whatsapp"></i> 0536 565 3955
+        </a>
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <div class="d-flex gap-3">
+          <a href="https://www.facebook.com/Kobimatik06/" class="text-dark"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://x.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="http://youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+            class="text-dark"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+              <img
+                src="./assets/img/logo.png"
+                alt="KobiMatik Logo"
+                height="40"
+              />
+            </a>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#features" class="nav-link"
+                    >Kobimatik Nedir ?</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link active"
+                    >Fiyatlandırma</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="how.html" class="nav-link">Nasıl Çalışır?</a>
+                </li>
+                <li class="nav-item">
+                  <a href="solutions.html" class="nav-link">Çözümler</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-outline-primary">
+                  Giriş Yap
+                </a>
+                <a href="login.html" class="btn btn-primary">Üye Ol</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Fiyatlandırma -->
+    <section
+      class="container section min-vh-100 d-flex flex-column align-items-center justify-content-center bg-light"
+    >
+      <div class="text-center">
+        <h1 class="display-3 fw-bold text">Paketinizi Seçin</h1>
+        <p>Planınızı seçerek başlayın.</p>
+        <div class="d-flex gap-3 justify-content-center"></div>
+      </div>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-5">
+            <div class="card h-100 p-4 border-0 pricing-card-1">
+              <h4 class="text-primary">Ön Fizibilite Raporu</h4>
+
+              <p>Herhangi bir profesyonel iş planına ihtiyaç duyanlar için.</p>
+              <p class="price text-primary" style="font-size: 3rem">
+                Ücretsiz<span class="text-muted"></span>
+              </p>
+
+              <button class="btn btn-primary w-100">
+                Ön Fizibilite Raporu Al
+              </button>
+              <ul class="mt-3 list-unstyled">
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Adım Adım
+                  Talimatlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Krediye Hazır
+                  Beyanlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tam Finansal
+                  Tahmin
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tek Sayfa Sunum
+                  Oluşturucu
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> 550+ Örnek Plan
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Canlı Eğitim
+                  Oturumu
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-5">
+            <div class="card h-100 p-4 border-0 pricing-card-2">
+              <h4 class="text-primary">Fizibilite Raporu/İş Planı</h4>
+              <p>
+                İşletmelerin çalışmasına ve büyümesine yardımcı olacak finansal
+                araçlar.
+              </p>
+              <p class="price text-primary" style="font-size: 3rem">
+                220₺ <span class="text-muted fs-3">aylık</span>
+              </p>
+              <button class="btn btn-primary w-100">
+                Fizibilite Raporu Al
+              </button>
+
+              <ul class="mt-3 list-unstyled">
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Adım Adım
+                  Talimatlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Krediye Hazır
+                  Beyanlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tam Finansal
+                  Tahmin
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tek Sayfa Sunum
+                  Oluşturucu
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> 550+ Örnek Plan
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Canlı Eğitim
+                  Oturumu
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-5">
+            <div class="card h-100 p-4 border-0 pricing-card-3">
+              <h4 class="text-primary">Gelişmiş Fizibilite ve İş Planı</h4>
+              <p>İleri düzey finansal araçlar ve analizler.</p>
+              <p class="price text-primary" style="font-size: 3rem">
+                490₺ <span class="text-muted fs-3">aylık</span>
+              </p>
+              <button class="btn btn-primary w-100">Gelişmiş Plan Al</button>
+              <ul class="mt-3 list-unstyled">
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Adım Adım
+                  Talimatlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Krediye Hazır
+                  Beyanlar
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tam Finansal
+                  Tahmin
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Tek Sayfa Sunum
+                  Oluşturucu
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> 550+ Örnek Plan
+                </li>
+                <li>
+                  <i class="bi bi-check-lg text-primary"></i> Canlı Eğitim
+                  Oturumu
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5 mt-5 bg-light">
+      <!-- Açıklama -->
+      <div class="container my-5 mt-5 text-center">
+        <h2 class="fw-bold desc-pricing">İhtiyacınız olan tüm özellikler:</h2>
+        <div class="row mt-4">
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-magic text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">Borç verenleri ve yatırımcıları etkileyin</h5>
+              <p>
+                Borç verenlerin görmeyi beklediği tüm ayrıntıları ve finansal
+                bilgileri içeren bir iş planı oluşturun.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-list text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">Fikirleri düzenleyin ve test edin</h5>
+              <p>
+                Tüm iş fikirlerinizi tek bir yerde organize edin. Karlı olup
+                olmadıklarını görmek için finansal tahminler oluşturun.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-bookmark text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">İşletmenin temellerini öğrenin</h5>
+              <p>
+                Bir şirketi kurmanın ve yönetmenin temellerini anlamanıza
+                yardımcı olacak adım adım bir planlama sürecini takip edin.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-graph-up text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">Hedeflerinize odaklanın</h5>
+              <p>
+                Büyüme hedefleri belirleyin ve ilerlemenizi takip edin. Bu,
+                hedeflerinize ulaşma olasılığınızı artırır.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-bar-chart text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">Veri odaklı kararlar alın</h5>
+              <p>
+                Finansal gösterge panelinizle, kârınızı artırmanın ve
+                maliyetleri düşürmenin yollarını keşfedin.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div>
+              <i
+                class="bi bi-file-earmark-text text-primary me-3"
+                style="font-size: 2.5rem"
+              ></i>
+              <h5 class="fw-bold">Güvenle sunun</h5>
+              <p>
+                Herkesin anlayabileceği grafikler kullanarak işletmenizin
+                finansallarını raporlayın.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Açıklama tablosu -->
+      <div class="container bg-light">
+        <h2 class="text-center mb-4" id="comparison">
+          Özellikleri Karşılaştır
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Takım</th>
+              <th>Ön Fizibilite Raporu</th>
+              <th>Fizibilite Raporu/İş Planı</th>
+              <th>Gelişmiş Fizibilite ve İş Planı</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td>Aktif Şirketler</td>
+              <td class="text-center">1</td>
+              <td class="text-center">1</td>
+              <td class="text-center">1</td>
+            </tr>
+            <tr>
+              <td>Katkıda Bulunanlar</td>
+              <td class="text-center">5</td>
+              <td class="text-center">5</td>
+              <td class="text-center">5</td>
+            </tr>
+
+            <tr>
+              <td>Misafirler</td>
+              <td class="text-center">Sınırsız</td>
+              <td class="text-center">Sınırsız</td>
+              <td class="text-center">Sınırsız</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="text-center mb-4">Özellikler</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Fiyatlandırma Özelliği</th>
+              <th>Ön Fizibilite Raporu</th>
+              <th>Fizibilite Raporu/İş Planı</th>
+              <th>Gelişmiş Fizibilite ve İş Planı</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider bg-light">
+            <tr>
+              <td>Adım Adım Talimatlar</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Borç Veren-Hazır Beyanlar</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Tam Finansal Tahmin</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Kolay Pitch/Plan Dışa Aktarımı</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Tek Sayfalık Pitch Oluşturucu</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>550+ Örnek Plan</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Kilometre Taşı Planlayıcısı</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Endüstri Araştırması</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>"Ya şöyle olsaydı" senaryoları</td>
+              <td class="text-center">
+                <i class="bi bi-x-lg text-danger"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-x-lg text-danger"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-x-lg text-danger"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Performans Gösterge Panoları</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Gerçek Zamanlı Kar ve Nakit Tahmini</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Otomatik Tahmin Oluşturucu</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Excel'e aktar</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Trend Belirleme</td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-check-lg text-primary"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Sıkça sorulan sorular -->
+      <div class="container">
+        <h2 class="text-center mb-4">Sıkça Sorulan Sorular</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Premium paketin avantajları nelerdir?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Sıkça yapılan hatalardan biri, premium paketlerin sadece
+                finansal araçlar sunduğunu düşünmektir. Ancak, premium paketler
+                birçok ek özellik sunar.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                KobiMatik benim için işe yarayacak mı?
+              </button>
+            </h2>
+
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Kobi, iş planınızı oluşturmanıza, stratejilerinizi belirlemenize
+                ve hedeflerinizi takip etmenize yardımcı olur. Ayrıca, Kobi ile
+                finansal tahminler yapabilirsiniz.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Planımın profesyonel bir şekilde incelenebileceği biri var mı?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Evet, profesyonel danışmanlarımız planınızı inceleyebilir ve
+                geri bildirimde bulunabilir. Bu, iş planınızın daha etkili
+                olmasına yardımcı olabilir.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Birden fazla planı bir arada çalıştırabilir miyim?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Evet, birden fazla planı aynı anda yönetebilir ve her birinin
+                performansını ayrı ayrı takip edebilirsiniz. Bu, iş
+                süreçlerinizi daha iyi yönetmenize yardımcı olur.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 section text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Logo ve Sosyal Medya -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="./assets/img/logo.png"
+              alt="KobiMatik Logo"
+              height="40"
+              class="mb-3"
+            />
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/kobimatik/" class="text-light"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+                class="text-light"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Çözümler -->
+          <div class="col-md-2 mb-4">
+            <h5>Çözümler</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Ön Fizibilite Raporu</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Fizibilite Raporu/İş Planı</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Gelişmiş Fizibilite ve İş Planı</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Politikalar ve Gizlilik -->
+          <div class="col-md-2 mb-4">
+            <h5>Politikalar ve Gizlilik</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="/assets/pdf/kobimatik_sozlesme.pdf"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  >Sözleşme</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/mesafeli_satis_sozlesmesi.pdf"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  >Mesafeli Satış Sözleşmesi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/iptal_ve_iade_kosullari.pdf"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  >İptal ve İade Koşulları</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/gizlilik_politikasi.pdf"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  >Gizlilik Politikası</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- İletişim -->
+          <div class="col-md-2 mb-4">
+            <h5>İletişim</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="bi bi-telephone me-2"></i>
+                <a
+                  href="tel:+903124737534"
+                  class="text-light text-decoration-none"
+                  >0312 4737534</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-whatsapp me-2"></i>
+                <a
+                  href="https://wa.me/05326535025"
+                  class="text-light text-decoration-none"
+                  >0532 653 5025</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-envelope me-2"></i>
+                <a
+                  href="mailto:ayhan@pmcproje.com"
+                  class="text-light text-decoration-none"
+                  >ayhan@pmcproje.com</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                <span
+                  >Adres: Oğuzlar Mahallesi İlhami Soysal Sokak 20/10 Balgat/
+                  Çankaya Ankara 06520 Türkiye
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Bülten -->
+          <div class="col-md-3 mb-4">
+            <h5>Bültenimize Katılın</h5>
+            <p>En son haberler ve güncellemeler için abone olun</p>
+            <div class="input-group mb-3 justify-content-center">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-posta adresiniz"
+              />
+              <button class="btn btn-primary" type="button">Katıl</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telif Hakkı -->
+        <div class="border-top pt-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>&copy; 2025 KobiMatik Tüm hakları saklıdır.</p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

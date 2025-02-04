@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kobi Matik</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header class="bg-light fixed-top">
+      <div
+        class="p-2 bg-primary d-flex justify-content-center gap-4 sticky-top align-items-center"
+      >
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-envelope"></i> ayhan@pmcproje.com
+        </a>
+        <a
+          href="mailto:ayhan@pmcproje.com"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-telephone"></i> 0512 472 7524
+        </a>
+        <a
+          href="tel:+905124727524"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-telephone"></i>
+        </a>
+
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-none d-md-block"
+        >
+          <i class="bi bi-whatsapp"></i> 0536 565 3955
+        </a>
+        <a
+          href="https://wa.me/905365653955"
+          class="text-dark text-decoration-none d-md-none"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <div class="d-flex gap-3">
+          <a href="https://www.facebook.com/Kobimatik06/" class="text-dark"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://x.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/kobimatik/" class="text-dark"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="http://youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+            class="text-dark"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+              <img
+                src="./assets/img/logo.png"
+                alt="KobiMatik Logo"
+                height="40"
+              />
+            </a>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link ">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#features" class="nav-link"
+                    >Kobimatik Nedir ?</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link"
+                    >Fiyatlandırma</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="how.html" class="nav-link"
+                    >Nasıl Çalışır?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="solutions.html" class="nav-link active">Çözümler</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-outline-primary">
+                  Giriş Yap
+                </a>
+                <a href="login.html" class="btn btn-primary">Üye Ol</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section bg-light py-5" id="solutions">
+      <div class="container mt-5 pt-5">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold mb-2">
+              KOBİMATİK Paketleriyle Tanışın,<br />İhtiyacınıza Uygun Olanı
+              Seçin
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Seçenekler -->
+            <div class="nav nav-pills d-flex justify-content-center gap-3 mb-5">
+              <button
+                class="btn btn-primary px-4 py-2 active"
+                type="button"
+                data-bs-toggle="pill"
+                data-bs-target="#fizibilite"
+              >
+                Ön Fizibilite Raporu
+              </button>
+              <button
+                class="btn btn-primary px-4 py-2"
+                type="button"
+                data-bs-toggle="pill"
+                data-bs-target="#isPlan"
+              >
+                Fizibilite Raporu/İş Planı
+              </button>
+              <button
+                class="btn btn-primary px-4 py-2"
+                type="button"
+                data-bs-toggle="pill"
+                data-bs-target="#finansal"
+              >
+                Gelişmiş Fizibilite ve İş Planı
+              </button>
+            </div>
+
+            <!-- İçerikler -->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="fizibilite">
+                <div class="card card-body border-0 bg-light">
+                  <h3 class="h4 mb-2">Ön Fizibilite Raporu</h3>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      • Bir işyerinde çalışıyorsunuz ancak işinizden memnun
+                      değil misiniz?
+                    </li>
+                    <li class="mb-2">
+                      • Birikiminiz var ve kendi işinizi kurmak istiyorsunuz ama
+                      nereden başlayacağınızı bilmiyor musunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Mevcut bir işiniz var ama aynı zamanda yeni bir iş
+                      fikrinizi hayata geçirmek mi istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Bankadan kredi veya bir yakınınızdan borç para alarak iş
+                      fikrinizi hayata geçirip geçiremeyeceğinizi, aldığınız
+                      borç veya kredileri ödeyebilmek için işletme karınızın ve
+                      nakit akımınızın yeterli olup olmayacağını test etmek mi
+                      istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      •KOSGEB ya da başka bir kurum/kuruluştan destek almak için
+                      iş fikrinizin uygun olup olmadığını öğrenmek mi
+                      istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      O zaman bu uygulama tam size göre! Üstelik ücretsiz deneme
+                      imkanıyla!
+                    </li>
+                    <li class="mb-2">
+                      Sayılarla fazla uğraşmadan sadece birkaç veri girişi
+                      yaparak iş fikrinizin sayısal karşılığını öğrenmenin en
+                      ekonomik ve hızlı yolu KOBİMATİK'ten geçer. KOBİMATİK
+                      girişimcilere destek vermeyi, yeniliği, üretimi ve dövize
+                      olan bağımlılığımızı azaltmayı hedefleyerek ülke
+                      girişimciliğine önemli bir katkı sunuyor. Bu hedefimiz
+                      doğrultusunda basit, kolay, hızlı, anlaşılabilir ve modern
+                      yöntemleri sizler için özenle hazırladık. Bilgi birikimi
+                      odaklı olmayan ve arka planda akıllı uygulama yöntemlerine
+                      sahip olan bu paket herkes için idealdir. İş fikrinizin
+                      veya yatırımınızın hizmet, inşaat veya karma sektörde
+                      olduğunu düşünüyorsanız ve bu paketin size uygun olup
+                      olmadığı konusunda endişeniz varsa korkmayın! KOBİMATİK
+                      ile istediğiniz her sektöre yönelik iş fikrinizi test
+                      edebilir ve raporunuzu güvenle alabilirsiniz. Her sektöre
+                      uygun uygulamamızla doğru veri girişi yaparak sağlıklı
+                      sonuçlar alabilirsiniz. Haydi hemen başlayın!
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="isPlan">
+                <div class="card card-body border-0 bg-light">
+                  <h3 class="h4 mb-2">İş Planı</h3>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      Mikro ve küçük işletmelerin önemli yol haritası olabilecek
+                      bu paket, girişimciler için inanılmaz bir fırsat
+                      sunmaktadır.
+                    </li>
+                    <li class="mb-2">• İşinizden memnun değil misiniz?</li>
+                    <li class="mb-2">
+                      • Birikiminiz var ve kendi işinizi kurmak istiyorsunuz ama
+                      nereden başlayacağınızı bilmiyor musunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Mevcut bir işiniz var ama aynı zamanda yeni bir iş
+                      fikrinizi hayata geçirmek mi istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      • İş fikriniz hazır ancak sınırlı kaynağınız var ve ne
+                      kadar daha kaynağa ihtiyacınız olduğunu öğrenmek mi
+                      istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Elinizdeki sınırlı kaynağın hayalinizdeki parlak iş
+                      fikri için yeterli olup olmadığını mı merak ediyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Bankadan kredi veya bir yakınınızdan borç para alarak iş
+                      fikrinizi hayata geçirip geçiremeyeceğinizi, aldığınız
+                      borç veya kredileri ödeyebilmek için işletme karınızın ve
+                      nakit akımınızın yeterli olup olmadığını mı test etmek
+                      istiyorsunuz?
+                    </li>
+                    <li class="mb-2">
+                      • Çevrenizde melek yatırımcı var ve kendiniz ya da
+                      muhasebeciniz kanalıyla projenizi ya da iş fikrinizi
+                      sunmayı düşünüyor ancak nasıl yapacağınızı bilmiyor
+                      musunuz?
+                    </li>
+                    <li class="mb-2">
+                      Telaşa gerek yok! Finans uzmanı olmanıza gerek kalmadan
+                      KOBİMATİK üzerinden güvenilir bir şekilde sadece birkaç
+                      soruya cevap vererek fizibilite raporunuzu alıp karar
+                      vericilere sunabilirsiniz.
+                    </li>
+                    <li class="mb-2">
+                      • Tarım ve hayvancılık kredisi için sizden profesyonel
+                      fizibilite mi isteniyor?
+                    </li>
+                    <li class="mb-2">
+                      Alt yapısı her türlü iş fikri, proje ve yatırımlara göre
+                      uyarlanmış KOBİMATİK, çiftçiler ve girişimciler de dahil
+                      olmak üzere mikro ve küçük işletmelerin önemli bir
+                      ihtiyacına son derece ekonomik fiyatlarla çözüm
+                      sunmaktadır. Kısacası, bu paket herkes için
+                      fizibilite(yapılabilirlik) raporu sunar.
+                    </li>
+                    <li class="mb-2">
+                      • Mezun olduktan sonra ailenizden sermaye alıp iş
+                      fikrinizi hayata geçirip hayalinizi gerçekleştirmek mi
+                      istiyorsunuz? Ancak ailenizi neye dayanarak ikna
+                      edeceğinizi bilmiyor musnuz?
+                    </li>
+                    <li class="mb-2">
+                      KOBİMATİK tam o anda yardımınızda! Bilgi birkimi
+                      gerektirmeyen birkaç soruya vereceğiniz cevaplarla
+                      KOBİMATİK üzerinden anında fizibilite raporunuzu
+                      alabilirsiniz. Üstelik bu soruları cevaplamak için 5
+                      dakikadan az bir süreye ihtiyacınız var.
+                    </li>
+                    <li class="mb-2">
+                      • KOSGEB ya da başka bir kurum/kuruluştan destek almak
+                      için iş fikrinizin uygun olup olmadığını öğrenmek
+                      istiyorsanız bu uygulama tam size göre! Sayılarla fazla
+                      uğraşmadan birkaç veri girişi yaparak iş fikrinizin
+                      sayısal karşılığını öğrenmenin en ekonomik yolu
+                      KOBİMATİK'ten geçer. KOBİMATİK girişimcilere destek
+                      vermeyi, yeniliği, üretimi ve yabancı sermayelere olan
+                      bağımlılığımızı azaltmayı hedefleyerek ülke
+                      girişimciliğine önemli bir katkı sunar. Bu hedef
+                      doğrultusunda, KOBİMATİK girişimcilerin karar destek
+                      süreçlerini ekonomik fiyatlara destekleyerek finansal
+                      rapor ve sonuçları hızlı bir şekilde hazırlayayıp sunar.
+                    </li>
+                    <li class="mb-2">
+                      KOBİMATİK basit, kolay, hızlı, anlaşılır ve modern
+                      yöntemleri kullanır. Bilgi birikimi odaklı olmayan ve arka
+                      planda akıllı uygulama yöntemleri kullanan bu paket herkes
+                      için ideal bir pakettir.
+                    </li>
+                    <li class="mb-2">
+                      İş fikrinizin veya yatırımınızın imalat, hizmet, inşaat
+                      veya karma sektörde olduğunu düşünüyorsanız ve bu paketin
+                      uygun olup olmadığı yönünde endişeniz varsa korkmayın. Her
+                      sektöre uygun metodolojimiz ile uygulamamızdan sağlıklı
+                      sonuçlar alabilirsiniz. Son yılların gözde yatırımları
+                      E-ticaret, yüksek, düşük ve orta teknolojilerin yanı sıra
+                      TARIM, ORMAN, HAYVANCILIK, TEKSTİL, SANAYİ, ENERJİ VE
+                      MADENCİLİK dahil her sektöre uygun raporlama yöntemimiz
+                      sizi memnun edecektir. KOSGEB dışında kalkınma ajansları,
+                      TÜBİTAK, IPARD, KKYDP ve benzeri kurumlara proje sunmadan
+                      önce de bu paket ve elde edeceğiniz sonuçlar sizlere
+                      sağlıklı veri sunacaktır.
+                    </li>
+                    <li class="mb-2">
+                      Aklınızda ne tür bir iş olursa olsun öncelikle
+                      paketlerimizden yardım almanızı öneririz. Paket
+                      değerlendirme sonuçları hakkında daha detaylı bilgi almak
+                      isterseniz uzmanlarımızla iletişime geçiniz.
+                    </li>
+                    <li class="mb-2">
+                      KOBİMATİK her alanda iş kurmak isteyen girişimciler için
+                      uygun bir paket imkanı sunar. Yukarıda belirttiğimiz
+                      sektörlere ek olaral Ar-ge inovasyon konusunda proje yapan
+                      kişiler de bu paketten yararlanabilir ve bunu bir
+                      değerlendirme aracı olarak kullanabilirler. KOBİMATİK
+                      HERKES İÇİN FİZİBİLİTE paketi sunuyor. Bu paketi hem
+                      fizibilite yerine kullanabilir hem de iş planınızı
+                      hazırlarken bu paketten yapabilirsiniz. Araştırma,
+                      geliştirme ve inovasyon fikirlerinizde de bu paketin sizi
+                      yolda bırakmayacağından emin olabilirsiniz. Üniversite
+                      öğrencileri arasında ziraat, gıda, madencilik, orman,
+                      endüstri, çevre ve diğer mühendislik alalarında derslerde
+                      okutulan finansal planlama ve yatırım planlaması
+                      konularında da bu paketi güvenle kullanabilir, ödev ve
+                      araştırma raporlarınızın hazırlanmasında eğitmenleri ikna
+                      edebilecek raporlama tablolarımıza güvenebilirsiniz.
+                    </li>
+                    <li class="mb-2">
+                      Adı üzerinde herkese ve her sektöre göre hazırladığımız bu
+                      paketin kullanımında görüş ve önerilerinizi de
+                      sabırsızlıkla bekliyor olacağız.
+                    </li>
+                    <li class="mb-2">info@kobimatik.com.tr</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="finansal">
+                <div class="card card-body border-0 bg-light">
+                  <h3 class="h4 mb-2">Finansal Analiz</h3>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      İleri düzey detay fizibilite raporu olarak sistem sizi
+                      yönlendirecektir.
+                    </li>
+                    <li class="mb-2">
+                      Sisteme girdiğiniz değerler arka planda yapay zeka ile
+                      çalışarak size gelişmiş bir fizibilite raporu
+                      hazırlanacaktır.
+                    </li>
+                    <li class="mb-2">
+                      Bu rapor iş kurmak isteyenler ve mevcut işi olup işini
+                      büyütmek isteyenler için hazırlanabilir.
+                    </li>
+                    <li class="mb-2">
+                      Tarım ve Orman Bakanlığı KKYDP-İŞ PLANI, Tarım ve Kırsal
+                      Kalkınma Kurumu iş planı ve fizibilite raporu, Kalkınma
+                      Ajansları Fizibiliteleri, Ziraat Bankası Kredileri için
+                      uygun formatta raporlar hazırlanır.
+                    </li>
+                    <li class="mb-2">
+                      Güneş ve Rüzgar enerji sistemleri gibi yenilenebilir
+                      enerji sistemleri konularında AB standartlarına uygun
+                      raporlar oluşturulur.
+                    </li>
+                    <li class="mb-2">• Büyükbaş Hayvancılık,</li>
+                    <li class="mb-2">• Küçükbaş hayvancılık,</li>
+                    <li class="mb-2">• Kanatlı yetiştiriciliği,</li>
+                    <li class="mb-2">
+                      Tekstil, Tarım, Turizm, Gıda olmak üzere tüm sektörlere
+                      uygun formatta fizibilite raporlarınızı ilgili değerleri
+                      girerek kendiniz hazırlayabilirsiniz.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 section text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Logo ve Sosyal Medya -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="./assets/img/logo.png"
+              alt="KobiMatik Logo"
+              height="40"
+              class="mb-3"
+            />
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/kobimatik/" class="text-light"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.instagram.com/kobimatik/" class="text-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCrhd3mIZDDuTb9wuQ3_A5RA"
+                class="text-light"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Çözümler -->
+          <div class="col-md-2 mb-4">
+            <h5>Çözümler</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Ön Fizibilite Raporu</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Fizibilite Raporu/İş Planı</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Gelişmiş Fizibilite ve İş Planı</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Politikalar ve Gizlilik -->
+          <div class="col-md-2 mb-4">
+            <h5>Politikalar ve Gizlilik</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="/assets/pdf/kobimatik_sozlesme.pdf"
+                  class="text-light text-decoration-none"
+                  >Sözleşme</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/mesafeli_satis_sozlesmesi.pdf"
+                  class="text-light text-decoration-none"
+                  >Mesafeli Satış Sözleşmesi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/iptal_ve_iade_kosullari.pdf"
+                  class="text-light text-decoration-none"
+                  >İptal ve İade Koşulları</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/assets/pdf/gizlilik_politikasi.pdf"
+                  class="text-light text-decoration-none"
+                  >Gizlilik Politikası</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- İletişim -->
+          <div class="col-md-2 mb-4">
+            <h5>İletişim</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="bi bi-telephone me-2"></i>
+                <a
+                  href="tel:+903124737534"
+                  class="text-light text-decoration-none"
+                  >0312 4737534</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-whatsapp me-2"></i>
+                <a
+                  href="https://wa.me/05326535025"
+                  class="text-light text-decoration-none"
+                  >0532 653 5025</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-envelope me-2"></i>
+                <a
+                  href="mailto:ayhan@pmcproje.com"
+                  class="text-light text-decoration-none"
+                  >ayhan@pmcproje.com</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                <span>
+
+                </span>
+                <a href="https://www.google.com/maps/search/?api=1&query=Oğuzlar+Mah.+İlhami+Soysal+Sok.+20/10+Balgat+/+Çankaya+Ankara" class="text-light text-decoration-none" target="_blank">Adres: Oğuzlar Mah. İlhami Soysal Sok. 20/10 Balgat/ Çankaya Ankara</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Bülten -->
+          <div class="col-md-3 mb-4">
+            <h5>Bültenimize Katılın</h5>
+            <p>En son haberler ve güncellemeler için abone olun</p>
+            <div class="input-group mb-3 justify-content-center">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-posta adresiniz"
+              />
+              <button class="btn btn-primary" type="button">Katıl</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telif Hakkı -->
+        <div class="border-top pt-4 mt-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="mb-3">&copy; 2025 KobiMatik Tüm hakları saklıdır.</p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
